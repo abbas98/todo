@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+.title > h1, p, a {
+  font-family: "Mochiy Pop P One", sans-serif;
+  /* font-size: 40px; */
+}
+
+tr {
+  height: 50px;
+  background: #fbfbfb;
+}
+
+.input::placeholder {
+  padding: 5px;
+  outline: hidden;
+}
+input:focus , textarea:focus, select:focus{
+    outline: none;
+    border: none;
+}
+
+.submit img{
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%); */
+    height: 35px;
+    color: white;
+}
+
+.table {
+  box-shadow: 0 0 4px 2px #b3b3b3;
+}
+
+.checkbox::after[type="checkbox"] {
+    background-color: #000;
+}
+
+input{
+    background-color: transparent;
+}
+
+section{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
